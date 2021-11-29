@@ -30,7 +30,7 @@ function analise2() {
     b=10
     c=10*/
 }
-// analise2();
+ analise2();
 
 function analise3() {
 
@@ -39,7 +39,7 @@ function analise3() {
     alert(`Voce recebe ${valorDia / horaTrabalho} por hora`);
 
 }
-// analise3();
+analise3();
 
 function analiseEscritadeCodigo() {
 
@@ -62,11 +62,22 @@ function analiseEscritadeCodigo() {
 
     alert(`Olá ${nome}, você tem ${idade} anos`);
 
+    choveu= prompt("Hoje choveu?");
+    chocolate= prompt("Você gosta de chocolate?");
+    filhos= prompt("Você gosta de azul?");
+
+
+    let a = 10
+    let b = 25
+    let c;
+    
+    c = a;
+    a = b;
+    b = c;
+
  }
-analiseEscritadeCodigo();
+ analiseEscritadeCodigo();
 
 
-choveu= prompt("Hoje choveu?");
-chocolate= prompt("Você gosta de chocolate?");
 
 
